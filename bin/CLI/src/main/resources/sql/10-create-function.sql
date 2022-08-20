@@ -1,0 +1,5 @@
+CREATE FUNCTION fn_breed_count (bid int)
+RETURNS INT
+PARAMETER STYLE JAVA
+LANGUAGE JAVA
+EXTERNAL NAME 'example.dto.BreedCount.getCount'
